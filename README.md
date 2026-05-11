@@ -37,9 +37,7 @@ src/
 └── App.js
 ```
 
-## Screenshots
-
-![App Screenshot](./crudtoolkit.png)
+![App](./crudtoolkit.png)
 ## Autor
 
 Marouane
