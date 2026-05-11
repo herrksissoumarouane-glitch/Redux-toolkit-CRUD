@@ -39,8 +39,7 @@ src/
 
 ## Screenshots
 
-Hier können Screenshots des Projekts hinzugefügt werden.
-
+![App Screenshot](./crudtoolkit.png)
 ## Autor
 
 Marouane
