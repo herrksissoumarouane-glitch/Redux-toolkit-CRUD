@@ -38,7 +38,7 @@ src/
 ```
 ## Screenshots
 
-![App Screenshot](./crudtoolkit.png)
+![App Screenshot](https://raw.githubusercontent.com/herrksissoumarouane-glitch/Redux-toolkit-CRUD/main/crudtoolkit.png)
 ## Autor
 
 Marouane
