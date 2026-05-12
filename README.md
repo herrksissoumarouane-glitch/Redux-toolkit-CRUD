@@ -36,9 +36,7 @@ src/
 ├── pages/
 └── App.js
 ```
-## Screenshots
 
-![App](app.png)
 ## Autor
 
 Marouane
