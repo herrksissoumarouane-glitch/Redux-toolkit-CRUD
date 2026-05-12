@@ -8,25 +8,25 @@ const initialState = {
   error: null,
 };
 
-// 🔵 READ all posts
+//  READ all posts
 export const getAllPosts = createAsyncThunk("posts/getAll", async () => {
   const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
   return res.data;
 });
 
-// 🟢 CREATE post
+//  CREATE post
 export const addPost = createAsyncThunk("posts/add", async (newPost) => {
   const res = await axios.post("https://jsonplaceholder.typicode.com/posts", newPost);
   return res.data;
 });
 
-// 🟠 UPDATE post
+//  UPDATE post
 export const updatePost = createAsyncThunk("posts/update", async (updatedPost) => {
   const res = await axios.put(`https://jsonplaceholder.typicode.com/posts/${updatedPost.id}`, updatedPost);
   return res.data;
 });
 
-// 🔴 DELETE post
+//  DELETE post
 export const deletePost = createAsyncThunk("posts/delete", async (id) => {
   await axios.delete(`https://jsonplaceholder.typicode.com/posts/${id}`);
   return id;
