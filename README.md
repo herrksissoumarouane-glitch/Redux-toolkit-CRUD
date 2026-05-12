@@ -38,7 +38,7 @@ src/
 ```
 ## Screenshots
 
-![App](./app.png)
+![App](app.png)
 ## Autor
 
 Marouane
