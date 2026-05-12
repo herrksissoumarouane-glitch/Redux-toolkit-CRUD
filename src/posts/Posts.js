@@ -40,7 +40,7 @@ const Posts = () => {
     
     <div className="container mt-5">
   <h2 className="text-center mb-4">
-    📝 Posts CRUD with Bootstrap
+     Posts CRUD with Toolkit
   </h2>
 
   <form onSubmit={handleSubmit} className="d-flex gap-2 mb-4">
